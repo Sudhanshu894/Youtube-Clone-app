@@ -10,6 +10,12 @@
     displaycontent(data); 
   })
 
+  const navcontent = async(props)=>{
+    let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=24&q=${props}&safeSearch=moderate&chart=mostPopular&key=${key}`);
+    let data = await res.json();
+    displaycontent(data.items);
+  }
+
   const displaycontent = (data) =>{
     let maindiv = document.querySelector('.content-section');
     maindiv.innerHTML = null;

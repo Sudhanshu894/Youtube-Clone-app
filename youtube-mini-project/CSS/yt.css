@@ -224,15 +224,16 @@ nav > div > div > span > sup {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.options > div > div:nth-child(1) {
+/* .options > div > div:nth-child(1) {
   background-color: white;
   color: #313131;
-}
+} */
 .options > div > div:hover {
   background-color: #474747;
 }
-.options > div > div:nth-child(1):hover {
+.options > div > div:active {
   background-color: white;
 }
 .options > div > div > span {

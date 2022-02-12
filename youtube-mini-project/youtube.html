@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- add icon to web tab  -->
     <link rel="shortcut icon" type="image" href="youtube.png" />
     <title>Youtube</title>
 
@@ -26,14 +24,16 @@
     />
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="./CSS/yt.css" />
   </head>
   <body>
     <nav>
       <div class="menu">
         <i class="fas fa-bars"></i>
         <div id="logo">
-          <img src="youtube.png" alt="logo" /><span>YouTube <sup>IN</sup></span>
+          <img src="./images//youtube.png" alt="logo" /><span
+            >YouTube <sup>IN</sup></span
+          >
         </div>
       </div>
 
@@ -55,6 +55,45 @@
         <div><i class="fas fa-user"></i></div>
       </div>
     </nav>
+    <div class="options">
+      <span onclick="rightshift()"><i class="fas fa-chevron-left"></i></span>
+      <span onclick="leftshift()"><i class="fas fa-chevron-right"></i></span>
+      <div>
+        <div onclick="navcontent('All')">All</div>
+        <div onclick="navcontent('Music')">Music</div>
+        <div onclick="navcontent('lofi-songs')">Lo- <span>fi</span></div>
+        <div onclick="navcontent('JavaScript')">JavaScript</div>
+        <div onclick="navcontent('Computer programming')">
+          Computer <span>programming</span>
+        </div>
+        <div onclick="navcontent('computers')">Computers</div>
+        <div onclick="navcontent('jethalal gada')">
+          Jethalal <span> Champaklal</span><span> Gada</span>
+        </div>
+        <div onclick="navcontent('stock markets')">
+          stock <span>markets</span>
+        </div>
+        <div onclick="navcontent('Digital courses')">Courses</div>
+        <div onclick="navcontent('Comedies')">Comedies</div>
+        <div onclick="navcontent('Podcasts')">Podcasts</div>
+        <div onclick="navcontent('Chemistry')">Chemistry</div>
+        <div onclick="navcontent('Graphic design')">
+          Graphic <span>design</span>
+        </div>
+        <div onclick="navcontent('sales')">Sales</div>
+        <div onclick="navcontent('conversation')">Conversation</div>
+        <div onclick="navcontent('motivation')">Motivation</div>
+        <div onclick="navcontent('mixes')">Mixes</div>
+        <div onclick="navcontent('Live songs')">Live</div>
+        <div onclick="navcontent('gaming')">Gaming</div>
+        <div onclick="navcontent('Recently uploaded')">
+          Recently <span>Uploaded</span>
+        </div>
+        <div onclick="navcontent('New to you')">
+          New <span>to</span><span>You</span>
+        </div>
+      </div>
+    </div>
 
     <div class="main-page">
       <aside>
@@ -79,4 +118,4 @@
     </div>
   </body>
 </html>
-<script src="search.js"></script>
+<script src="./JS/yt.js"></script>
