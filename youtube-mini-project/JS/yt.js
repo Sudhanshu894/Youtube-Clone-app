@@ -145,7 +145,7 @@ var saveresult = JSON.parse(localStorage.getItem('saveitems')) || [];
       searchvideos(name);
   }
   document.getElementById('logo').addEventListener('click',() =>{
-    window.location.href = 'youtube.html'
+    window.location.href = 'index.html'
   })
 var counter = 0;
   const rightshift = () =>{
