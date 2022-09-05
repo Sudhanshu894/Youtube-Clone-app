@@ -6,17 +6,18 @@ Multimedia and social media platform for sharing and watching videos
 <br />
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
 <br />
-A multimedia and OTT platform to watch and share videoswith a dynamic searchbar which lets the user search as peresire.
+A multimedia and OTT platform to watch and share videoswith a dynamic search bar which lets the user search as per their needs.
 <br />
 <hr />
 <h2>Features:</h2>
-<ul>
- <li>Dynamic search bar.<li/>
-<li>Display of all related videos as per user search<li/>
-<li>Video player and real-time search related results on a sidebar<li/> 
- <ul/>
+
+<li>Dynamic search bar.<li>Display of all related videos as per user search<li>Video player and real-time search related results on a sidebar
 <br />
 <hr />
+<h2>Tech Stacks Used:</h2>
+
+<li>HTML<li>CSS<li>Javascript<li>youtube Api
+<hr/>
 <h3><a href="https://youtube-mini-project.netlify.app/">Youtube Clone demo link <a/><h3/>
 <br />
 <hr />
