@@ -9,12 +9,15 @@ Multimedia and social media platform for sharing and watching videos
 A multimedia and OTT platform to watch and share videoswith a dynamic searchbar which lets the user search as peresire.
 <br />
 <hr />
-<h2>Screenshots</h2>
-<img src ="none" alt="Youtube-Clone" align="center" height="500">
+<h2>Features:</h2>
+<ul>
+ <li>Dynamic search bar.<li/>
+<li>Display of all related videos as per user search<li/>
+<li>Video player and real-time search related results on a sidebar<li/> 
+ <ul/>
 <br />
 <hr />
-<h2>Demo</h2>
-<img src ="./Youtubedemo2.png" alt="Youtube-Clone" align="center" height="500">
+<h3><a href="https://youtube-mini-project.netlify.app/">Youtube Clone demo link <a/><h3/>
 <br />
 <hr />
 <h2>Contributing</h2>
