@@ -1,6 +1,6 @@
 # Youtube-Clone-app
 Multimedia and social media platform for sharing and watching videos
-<div align="center">
+<div>
 <h1>Youtube-Clone</h1>
 <img src ="https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg" alt="Youtube-Clone" align="center" width="100" height="100">
 <br />
