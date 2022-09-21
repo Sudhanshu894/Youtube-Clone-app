@@ -18,7 +18,7 @@ A multimedia and OTT platform to watch and share videoswith a dynamic search bar
 
 <li>HTML<li>CSS<li>Javascript<li>youtube Api
 <hr/>
-<h3><a href="https://youtube-mini-project.netlify.app/">Youtube Clone demo link <a/><h3/>
+<h3><a href="https://youtube-mini-project.netlify.app/">Youtube Clone demo link <a/>
 <br />
 <hr />
 <h2>Contributing</h2>
